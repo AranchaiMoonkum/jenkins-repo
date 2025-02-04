@@ -1,7 +1,7 @@
 - name: Deploy Docker Container
   hosts: dockerservers
   gather_facts: false
-  remote_user: root
+  remote_user: ubuntu
   tasks:
     - name: Creating the Container
       docker_container:
