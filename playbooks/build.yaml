@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: team24-work:latest
+         name: test:latest
          source: build
          build:
-            path: ~/team24-work 
+            path: ~/test 
          state: present
          force_source: true
